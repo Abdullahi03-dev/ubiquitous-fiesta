@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+:root{
+  /*--bg0: #1e201e;*/
+  --bg0: rgb(30,32,30);
+  --bg1: #151515;
+  --bg2: #3c3d37;
+}
+ul,li{
+	list-style: none;
+}
+.logo{
+	width: 31px;
+	height: 31px;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.notification{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 8px;
+	left: -6px;
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	background-color: #7e60bf;
+	border-radius: 50%;
+	align-self: flex-end;
+}
+.side_icons{
+	width: 25px;
+	height: 25px;
+	margin-right: 15px;
+}
+.active{
+	font-weight: 600;
+
+	color: white;
+}
+#toggle{
+	margin-left: 1em;
+	padding: 2px 3px;
+	border-radius: 10px;
+}
+#toggle img{
+	width: 25px;
+	height: 25px;
+}
+.last_img{
+	display: flex;
+	align-items: center;
+	margin-top: 3em;
+}
+.last_img img{
+	width: 29px;
+	height: 29px;
+	border-radius: 50%;
+}
+li{
+	font-size: 13px;
+	color: gray;
+	margin: 12px 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+body{
+	height: 100vh;
+	width: 100%;
+	background-color: var(--bg0)
+}
+main{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+@media(max-width: 770px){
+	main{
+		flex-wrap: wrap;
+	}
+}
+aside{
+	border:1px solid gray;
+	padding-top: 2em;
+	padding-left: 1rem;
+	width: 13%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	height: 100%;
+}
+aside>div,span{
+	margin: 1.2rem 0;
+}
+.center_div{
+	padding-top: 10px;
+	height: 100%;
+	width: 72%;
+}
+.center_div nav div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.center_div nav div div{
+	width: 37px;
+	height: 37px;
+	border-radius: 50%;
+	background-color: #2e2d2c;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 6px;
+}
+nav{
+	margin-left: 2em;
+	padding: 5px 5px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+nav input{
+	border-radius: 6px;
+	background-color: transparent;
+	width: 18rem;
+	padding: 7px 7px;
+	border:1px solid gray;
+	padding-left: 2.7em;
+}
+.up_icons{
+	margin: 0 auto;
+	width: 24px;
+	height: 24px;
+	/*margin-right: 15px;*/
+	border-radius: 50%;
+}
+.section_games{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.first_game{
+	margin-top: 20px;
+	width: 93%;
+	border-radius: 9px;
+	height: 305px;
+	background: url('img/gta5.jpg');
+}
+.first_game div{
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+	padding-top: 1em;
+	padding-left: 1em;
+}
+.first_game div h3{
+	font-size: 12px;
+	color: white;
+	border-radius: 14px;
+	padding: 4px 7px;
+	background-color: #2e2d2c;
+	margin: 0 5px;
+}
+.second_game{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+/*.second_game .second_game_div>div:nth-child(1){
+	background: url('img/gta55.jpg');
+	background-position: center;
+	background-size: cover;
+	height: 185px;
+}*/
+.second_game .second_game_div .second_game_img img{
+	width: 410px;
+	height: 185px;
+}
+.second_game .second_game_div{
+	width: 410px;
+	height: 195px;
+	margin: 1em 10px;
+	border-radius: 9px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	flex-direction: column;
+	/*width: 70%;*/
+}
+.second_game .second_game_div .tag{
+	/*margin-top: 4em;*/
+	width: 410px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.tag h3{
+	font-size: 17px;
+}
+.tag span h4{
+	font-size: 10px;
+}
+.second_game span{
+	padding: 4px 5px;
+	border-radius: 10px;
+	
+	color: white;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #2e2d2c;
+}
+.second_game span img{
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+.aside2{
+	border:1px solid gray;
+	padding: 2em 1em;
+	padding-left:20px;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content:flex-start;
+	flex-direction: column;
+	width:  17%;
+}
+.aside2 div{
+	margin-top: 13px;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 ;
+}
+.aside2 div span {
+	padding: 0;
+	margin: 0;
+}
+.aside2 p{
+	margin-top: 4px;
+	font-size: 13px;
+
+}
+.aside2 #ptag{
+	font-weight: 550;
+	font-size: 9px;
+	color: white;
+	background-color: #2e2d2c;
+	padding:4px 6px;
+	margin-left:6px;
+}
+.sideimg{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 13px;
+}
+
+
+
+
+
+
+.summer_sale{
+	/*padding-top: 10px;*/
+	padding-left: 5px;
+	display: flex;
+	align-items: flex-start;
+	justify-content:flex-start;
+	flex-direction: column;
+	width: 94%;
+	height: 180px;
+	border:1px solid gray;
+	background-image: linear-gradient(to top,#7e60bf 60%,#1679ab);
+	border-radius: 6px;
+}
+.summer_sale div h5{
+	text-align: left;
+	font-size: 19px;
+	color: white;
+}
+.summer_sale div:nth-child(1){
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.summer_sale div:nth-child(2){
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+.moresale_img{
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	margin-right: -8px;
+}
+.more_games{
+	width: 100%;
+	padding-top: 10em;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+}
